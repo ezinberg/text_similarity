@@ -11,7 +11,7 @@ def similarity(t1, t2):
   # total_b := total number of bigrams in both texts
   # U (unigrams) = 1 - delta_u / total_u
   # B (bigrams) = 1 - delta_b / total_b
-  # Similarity = (2*U + B) / 3
+  # Similarity = (2U + B) / 3
 
 
   # define a few stopwords
